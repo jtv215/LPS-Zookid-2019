@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29B9A82621C8052000F1CED9 /* Profesor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9A82521C8052000F1CED9 /* Profesor.swift */; };
+		29B9A82821C8092800F1CED9 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9A82721C8092800F1CED9 /* Alumno.swift */; };
+		29B9A82921C80FFB00F1CED9 /* Juego.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF58F2321BC5460004ACFC5 /* Juego.storyboard */; };
+		29B9A82E21C81C7500F1CED9 /* PartidaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9A82A21C81C7500F1CED9 /* PartidaViewController.swift */; };
+		29B9A82F21C81C7500F1CED9 /* PreguntaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9A82B21C81C7500F1CED9 /* PreguntaViewController.swift */; };
+		29B9A83021C81C7500F1CED9 /* ResultadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9A82C21C81C7500F1CED9 /* ResultadosViewController.swift */; };
+		29B9A83121C81C7500F1CED9 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9A82D21C81C7500F1CED9 /* TestViewController.swift */; };
+		840311EB21E549DF007AA445 /* Estadisticas_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840311E621E549DF007AA445 /* Estadisticas_ViewController.swift */; };
+		8413917321ED3D9F00F54B1C /* ListaAlumnosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413916E21ED3D9F00F54B1C /* ListaAlumnosViewController.swift */; };
+		8413917421ED3D9F00F54B1C /* graficaResumen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413916F21ED3D9F00F54B1C /* graficaResumen.swift */; };
+		8413917521ED3D9F00F54B1C /* GraficaResultadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413917021ED3D9F00F54B1C /* GraficaResultadosViewController.swift */; };
+		8413917621ED3D9F00F54B1C /* GraficaFallosTotalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413917121ED3D9F00F54B1C /* GraficaFallosTotalesViewController.swift */; };
+		8413917721ED3D9F00F54B1C /* BarrasAciertosTabla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413917221ED3D9F00F54B1C /* BarrasAciertosTabla.swift */; };
+		843B817721B9C52F0051146F /* Inicio_de_sesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B817621B9C52F0051146F /* Inicio_de_sesionViewController.swift */; };
+		84412ECB21D3FEA1002DA550 /* BarraPartidasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84412EC921D3FEA1002DA550 /* BarraPartidasViewController.swift */; };
+		84412ECC21D3FEA1002DA550 /* BarrasAciertos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84412ECA21D3FEA1002DA550 /* BarrasAciertos.swift */; };
+		84412ED021D3FF1A002DA550 /* TableviewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84412ECF21D3FF1A002DA550 /* TableviewCell1.swift */; };
+		844E4BF621E6773300ADD1DB /* GraficaGeneroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E4BF221E6773300ADD1DB /* GraficaGeneroViewController.swift */; };
+		844E4BF821E6773300ADD1DB /* Admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844E4BF421E6773300ADD1DB /* Admin.storyboard */; };
+		8473A71021DFA78B007E6B7C /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8473A70F21DFA78A007E6B7C /* Realm.framework */; };
+		8473A71121DFA78C007E6B7C /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8473A70F21DFA78A007E6B7C /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8473A71321DFABA7007E6B7C /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8473A71221DFABA7007E6B7C /* Charts.framework */; };
+		8473A71421DFABA7007E6B7C /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8473A71221DFABA7007E6B7C /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84AAE48021DFBF8F00AB6C28 /* PerfilNinioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AAE47D21DFBF8F00AB6C28 /* PerfilNinioViewController.swift */; };
+		84AAE48121DFBF8F00AB6C28 /* nino.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AAE47E21DFBF8F00AB6C28 /* nino.storyboard */; };
+		84F03F1521DE8E17002DBCF9 /* grafica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F03F1421DE8E17002DBCF9 /* grafica.swift */; };
+		8D696DFB21D15EEC00AECD45 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D696DFA21D15EEC00AECD45 /* Animal.swift */; };
+		8D87448B21B6EBD300F7986A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D87448A21B6EBD300F7986A /* AppDelegate.swift */; };
+		8D87448D21B6EBD300F7986A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D87448C21B6EBD300F7986A /* ViewController.swift */; };
+		8D87449021B6EBD300F7986A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D87448E21B6EBD300F7986A /* Main.storyboard */; };
+		8D87449521B6EBD300F7986A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D87449421B6EBD300F7986A /* Assets.xcassets */; };
+		8D87449821B6EBD300F7986A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D87449621B6EBD300F7986A /* LaunchScreen.storyboard */; };
+		8D8744A321B6EBD300F7986A /* ZooKidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8744A221B6EBD300F7986A /* ZooKidsTests.swift */; };
+		D206FD3D21EFC522002486C6 /* ZooKids.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D206FD3B21EFC522002486C6 /* ZooKids.xcdatamodeld */; };
+		D230EC0621D550B6001F9631 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D230EC0221D550B6001F9631 /* AdminViewController.swift */; };
+		D230EC0721D550B6001F9631 /* AlumnosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D230EC0321D550B6001F9631 /* AlumnosTableViewController.swift */; };
+		D230EC0921D550B6001F9631 /* Fallo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D230EC0521D550B6001F9631 /* Fallo.swift */; };
+		D230EC2421D580E5001F9631 /* Partida.swift in Sources */ = {isa = PBXBuildFile; fileRef = D230EC2321D580E5001F9631 /* Partida.swift */; };
+		D2EE8C3C21EE9AC60006EABE /* ModeloDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EE8C3B21EE9AC60006EABE /* ModeloDatos.swift */; };
+		D2FCB9BD21DA445E00EFEBA4 /* AlumnoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB9B921DA445E00EFEBA4 /* AlumnoTableViewCell.swift */; };
+		D2FCB9BE21DA445E00EFEBA4 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB9BA21DA445E00EFEBA4 /* RegistroViewController.swift */; };
+		D3D4B5B721FB634D00AC472E /* Estadisticas_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840311E621E549DF007AA445 /* Estadisticas_ViewController.swift */; };
+		D3D4B5B821FB634D00AC472E /* AlumnosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D230EC0321D550B6001F9631 /* AlumnosTableViewController.swift */; };
+		D3D4B5B921FB634D00AC472E /* GraficaResultadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413917021ED3D9F00F54B1C /* GraficaResultadosViewController.swift */; };
+		D3D4B5BA21FB634D00AC472E /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB9BA21DA445E00EFEBA4 /* RegistroViewController.swift */; };
+		D3D4B5BB21FB634D00AC472E /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D230EC0221D550B6001F9631 /* AdminViewController.swift */; };
+		D3D4B5BC21FB634D00AC472E /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9A82721C8092800F1CED9 /* Alumno.swift */; };
+		D3D4B5BD21FB634D00AC472E /* AlumnoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FCB9B921DA445E00EFEBA4 /* AlumnoTableViewCell.swift */; };
+		D3D4B5BE21FB634D00AC472E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9A82D21C81C7500F1CED9 /* TestViewController.swift */; };
+		D3D4B5BF21FB634D00AC472E /* grafica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F03F1421DE8E17002DBCF9 /* grafica.swift */; };
+		D3D4B5C021FB634D00AC472E /* ModeloDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EE8C3B21EE9AC60006EABE /* ModeloDatos.swift */; };
+		D3D4B5C121FB634D00AC472E /* BarrasAciertosTabla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413917221ED3D9F00F54B1C /* BarrasAciertosTabla.swift */; };
+		D3D4B5C221FB634D00AC472E /* TableviewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84412ECF21D3FF1A002DA550 /* TableviewCell1.swift */; };
+		D3D4B5C321FB634D00AC472E /* PartidaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9A82A21C81C7500F1CED9 /* PartidaViewController.swift */; };
+		D3D4B5C421FB634D00AC472E /* ListaAlumnosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413916E21ED3D9F00F54B1C /* ListaAlumnosViewController.swift */; };
+		D3D4B5C521FB634D00AC472E /* Fallo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D230EC0521D550B6001F9631 /* Fallo.swift */; };
+		D3D4B5C621FB634D00AC472E /* GraficaGeneroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E4BF221E6773300ADD1DB /* GraficaGeneroViewController.swift */; };
+		D3D4B5C721FB634D00AC472E /* PreguntaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9A82B21C81C7500F1CED9 /* PreguntaViewController.swift */; };
+		D3D4B5C821FB634D00AC472E /* ZooKids.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D206FD3B21EFC522002486C6 /* ZooKids.xcdatamodeld */; };
+		D3D4B5C921FB634D00AC472E /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D696DFA21D15EEC00AECD45 /* Animal.swift */; };
+		D3D4B5CA21FB634D00AC472E /* Partida.swift in Sources */ = {isa = PBXBuildFile; fileRef = D230EC2321D580E5001F9631 /* Partida.swift */; };
+		D3D4B5CB21FB634D00AC472E /* BarraPartidasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84412EC921D3FEA1002DA550 /* BarraPartidasViewController.swift */; };
+		D3D4B5CC21FB634D00AC472E /* ResultadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9A82C21C81C7500F1CED9 /* ResultadosViewController.swift */; };
+		D3D4B5CD21FB634D00AC472E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D87448C21B6EBD300F7986A /* ViewController.swift */; };
+		D3D4B5CE21FB634D00AC472E /* PerfilNinioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AAE47D21DFBF8F00AB6C28 /* PerfilNinioViewController.swift */; };
+		D3D4B5CF21FB634D00AC472E /* Inicio_de_sesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B817621B9C52F0051146F /* Inicio_de_sesionViewController.swift */; };
+		D3D4B5D021FB634D00AC472E /* BarrasAciertos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84412ECA21D3FEA1002DA550 /* BarrasAciertos.swift */; };
+		D3D4B5D121FB634D00AC472E /* GraficaFallosTotalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413917121ED3D9F00F54B1C /* GraficaFallosTotalesViewController.swift */; };
+		D3D4B5D221FB634D00AC472E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D87448A21B6EBD300F7986A /* AppDelegate.swift */; };
+		D3D4B5D321FB634D00AC472E /* Profesor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9A82521C8052000F1CED9 /* Profesor.swift */; };
+		D3D4B5D421FB634D00AC472E /* graficaResumen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413916F21ED3D9F00F54B1C /* graficaResumen.swift */; };
+		D3D4B5D621FB634D00AC472E /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8473A70F21DFA78A007E6B7C /* Realm.framework */; };
+		D3D4B5D721FB634D00AC472E /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8473A71221DFABA7007E6B7C /* Charts.framework */; };
+		D3D4B5D921FB634D00AC472E /* Juego.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF58F2321BC5460004ACFC5 /* Juego.storyboard */; };
+		D3D4B5DA21FB634D00AC472E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D87449621B6EBD300F7986A /* LaunchScreen.storyboard */; };
+		D3D4B5DB21FB634D00AC472E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D87449421B6EBD300F7986A /* Assets.xcassets */; };
+		D3D4B5DC21FB634D00AC472E /* nino.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AAE47E21DFBF8F00AB6C28 /* nino.storyboard */; };
+		D3D4B5DD21FB634D00AC472E /* Admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844E4BF421E6773300ADD1DB /* Admin.storyboard */; };
+		D3D4B5DE21FB634D00AC472E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D87448E21B6EBD300F7986A /* Main.storyboard */; };
+		D3D4B5E021FB634D00AC472E /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8473A70F21DFA78A007E6B7C /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D3D4B5E121FB634D00AC472E /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8473A71221DFABA7007E6B7C /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D87449F21B6EBD300F7986A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D87447F21B6EBD300F7986A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D87448621B6EBD300F7986A;
+			remoteInfo = ZooKids;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84F03F4921DE93E9002DBCF9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8473A71121DFA78C007E6B7C /* Realm.framework in Embed Frameworks */,
+				8473A71421DFABA7007E6B7C /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D4B5DF21FB634D00AC472E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D3D4B5E021FB634D00AC472E /* Realm.framework in Embed Frameworks */,
+				D3D4B5E121FB634D00AC472E /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		29B9A82521C8052000F1CED9 /* Profesor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profesor.swift; sourceTree = "<group>"; };
+		29B9A82721C8092800F1CED9 /* Alumno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
+		29B9A82A21C81C7500F1CED9 /* PartidaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartidaViewController.swift; sourceTree = "<group>"; };
+		29B9A82B21C81C7500F1CED9 /* PreguntaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreguntaViewController.swift; sourceTree = "<group>"; };
+		29B9A82C21C81C7500F1CED9 /* ResultadosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultadosViewController.swift; sourceTree = "<group>"; };
+		29B9A82D21C81C7500F1CED9 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		840311E621E549DF007AA445 /* Estadisticas_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Estadisticas_ViewController.swift; sourceTree = "<group>"; };
+		8413916E21ED3D9F00F54B1C /* ListaAlumnosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListaAlumnosViewController.swift; path = ZooKids/ListaAlumnosViewController.swift; sourceTree = "<group>"; };
+		8413916F21ED3D9F00F54B1C /* graficaResumen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = graficaResumen.swift; path = ZooKids/graficaResumen.swift; sourceTree = "<group>"; };
+		8413917021ED3D9F00F54B1C /* GraficaResultadosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraficaResultadosViewController.swift; path = ZooKids/GraficaResultadosViewController.swift; sourceTree = "<group>"; };
+		8413917121ED3D9F00F54B1C /* GraficaFallosTotalesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraficaFallosTotalesViewController.swift; path = ZooKids/GraficaFallosTotalesViewController.swift; sourceTree = "<group>"; };
+		8413917221ED3D9F00F54B1C /* BarrasAciertosTabla.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BarrasAciertosTabla.swift; path = ZooKids/BarrasAciertosTabla.swift; sourceTree = "<group>"; };
+		843B817621B9C52F0051146F /* Inicio_de_sesionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inicio_de_sesionViewController.swift; sourceTree = "<group>"; };
+		84412EC921D3FEA1002DA550 /* BarraPartidasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarraPartidasViewController.swift; sourceTree = "<group>"; };
+		84412ECA21D3FEA1002DA550 /* BarrasAciertos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrasAciertos.swift; sourceTree = "<group>"; };
+		84412ECF21D3FF1A002DA550 /* TableviewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableviewCell1.swift; sourceTree = "<group>"; };
+		844E4BF221E6773300ADD1DB /* GraficaGeneroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraficaGeneroViewController.swift; path = ZooKids/GraficaGeneroViewController.swift; sourceTree = "<group>"; };
+		844E4BF421E6773300ADD1DB /* Admin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Admin.storyboard; path = ZooKids/Admin.storyboard; sourceTree = "<group>"; };
+		8473A70F21DFA78A007E6B7C /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		8473A71221DFABA7007E6B7C /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Charts.framework; sourceTree = "<group>"; };
+		84AAE47D21DFBF8F00AB6C28 /* PerfilNinioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PerfilNinioViewController.swift; path = ZooKids/PerfilNinioViewController.swift; sourceTree = "<group>"; };
+		84AAE47E21DFBF8F00AB6C28 /* nino.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = nino.storyboard; path = ZooKids/nino.storyboard; sourceTree = "<group>"; };
+		84F03F1421DE8E17002DBCF9 /* grafica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = grafica.swift; sourceTree = "<group>"; };
+		8D696DFA21D15EEC00AECD45 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		8D87448721B6EBD300F7986A /* ZooKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D87448A21B6EBD300F7986A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D87448C21B6EBD300F7986A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D87448F21B6EBD300F7986A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D87449421B6EBD300F7986A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D87449721B6EBD300F7986A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D87449921B6EBD300F7986A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D87449E21B6EBD300F7986A /* ZooKidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooKidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8744A221B6EBD300F7986A /* ZooKidsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooKidsTests.swift; sourceTree = "<group>"; };
+		8D8744A421B6EBD300F7986A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF58F2321BC5460004ACFC5 /* Juego.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Juego.storyboard; sourceTree = "<group>"; };
+		D206FD3C21EFC522002486C6 /* ZooKids.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZooKids.xcdatamodel; sourceTree = "<group>"; };
+		D230EC0221D550B6001F9631 /* AdminViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		D230EC0321D550B6001F9631 /* AlumnosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlumnosTableViewController.swift; sourceTree = "<group>"; };
+		D230EC0521D550B6001F9631 /* Fallo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fallo.swift; sourceTree = "<group>"; };
+		D230EC2321D580E5001F9631 /* Partida.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Partida.swift; sourceTree = "<group>"; };
+		D2EE8C3B21EE9AC60006EABE /* ModeloDatos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeloDatos.swift; sourceTree = "<group>"; };
+		D2FCB9B921DA445E00EFEBA4 /* AlumnoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlumnoTableViewCell.swift; sourceTree = "<group>"; };
+		D2FCB9BA21DA445E00EFEBA4 /* RegistroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		D3D4B5E521FB634D00AC472E /* ZooKids2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooKids2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D4B5E621FB634E00AC472E /* ZooKids copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ZooKids copy-Info.plist"; path = "/Users/alberto/Documents/LPS_ZooKids/ZooKids/ZooKids copy-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D87448421B6EBD300F7986A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8473A71021DFA78B007E6B7C /* Realm.framework in Frameworks */,
+				8473A71321DFABA7007E6B7C /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D87449B21B6EBD300F7986A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D4B5D521FB634D00AC472E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D4B5D621FB634D00AC472E /* Realm.framework in Frameworks */,
+				D3D4B5D721FB634D00AC472E /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D87447E21B6EBD300F7986A = {
+			isa = PBXGroup;
+			children = (
+				8413916E21ED3D9F00F54B1C /* ListaAlumnosViewController.swift */,
+				8413916F21ED3D9F00F54B1C /* graficaResumen.swift */,
+				8413917021ED3D9F00F54B1C /* GraficaResultadosViewController.swift */,
+				8413917121ED3D9F00F54B1C /* GraficaFallosTotalesViewController.swift */,
+				8413917221ED3D9F00F54B1C /* BarrasAciertosTabla.swift */,
+				844E4BF221E6773300ADD1DB /* GraficaGeneroViewController.swift */,
+				844E4BF421E6773300ADD1DB /* Admin.storyboard */,
+				84AAE47D21DFBF8F00AB6C28 /* PerfilNinioViewController.swift */,
+				84AAE47E21DFBF8F00AB6C28 /* nino.storyboard */,
+				8473A71221DFABA7007E6B7C /* Charts.framework */,
+				8473A70F21DFA78A007E6B7C /* Realm.framework */,
+				8D87448921B6EBD300F7986A /* ZooKids */,
+				8D8744A121B6EBD300F7986A /* ZooKidsTests */,
+				8D87448821B6EBD300F7986A /* Products */,
+				D3D4B5E621FB634E00AC472E /* ZooKids copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		8D87448821B6EBD300F7986A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D87448721B6EBD300F7986A /* ZooKids.app */,
+				8D87449E21B6EBD300F7986A /* ZooKidsTests.xctest */,
+				D3D4B5E521FB634D00AC472E /* ZooKids2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D87448921B6EBD300F7986A /* ZooKids */ = {
+			isa = PBXGroup;
+			children = (
+				840311E621E549DF007AA445 /* Estadisticas_ViewController.swift */,
+				D230EC0221D550B6001F9631 /* AdminViewController.swift */,
+				84F03F1421DE8E17002DBCF9 /* grafica.swift */,
+				D230EC0321D550B6001F9631 /* AlumnosTableViewController.swift */,
+				D230EC0521D550B6001F9631 /* Fallo.swift */,
+				29B9A82A21C81C7500F1CED9 /* PartidaViewController.swift */,
+				8D696DFA21D15EEC00AECD45 /* Animal.swift */,
+				29B9A82B21C81C7500F1CED9 /* PreguntaViewController.swift */,
+				29B9A82C21C81C7500F1CED9 /* ResultadosViewController.swift */,
+				29B9A82D21C81C7500F1CED9 /* TestViewController.swift */,
+				8D87448A21B6EBD300F7986A /* AppDelegate.swift */,
+				8D87448C21B6EBD300F7986A /* ViewController.swift */,
+				8D87448E21B6EBD300F7986A /* Main.storyboard */,
+				8DF58F2321BC5460004ACFC5 /* Juego.storyboard */,
+				84412EC921D3FEA1002DA550 /* BarraPartidasViewController.swift */,
+				84412ECA21D3FEA1002DA550 /* BarrasAciertos.swift */,
+				84412ECF21D3FF1A002DA550 /* TableviewCell1.swift */,
+				843B817621B9C52F0051146F /* Inicio_de_sesionViewController.swift */,
+				D230EC2321D580E5001F9631 /* Partida.swift */,
+				29B9A82721C8092800F1CED9 /* Alumno.swift */,
+				D2FCB9B921DA445E00EFEBA4 /* AlumnoTableViewCell.swift */,
+				D2FCB9BA21DA445E00EFEBA4 /* RegistroViewController.swift */,
+				D2EE8C3B21EE9AC60006EABE /* ModeloDatos.swift */,
+				29B9A82521C8052000F1CED9 /* Profesor.swift */,
+				8D87449421B6EBD300F7986A /* Assets.xcassets */,
+				8D87449621B6EBD300F7986A /* LaunchScreen.storyboard */,
+				8D87449921B6EBD300F7986A /* Info.plist */,
+				D206FD3B21EFC522002486C6 /* ZooKids.xcdatamodeld */,
+			);
+			path = ZooKids;
+			sourceTree = "<group>";
+		};
+		8D8744A121B6EBD300F7986A /* ZooKidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D8744A221B6EBD300F7986A /* ZooKidsTests.swift */,
+				8D8744A421B6EBD300F7986A /* Info.plist */,
+			);
+			path = ZooKidsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D87448621B6EBD300F7986A /* ZooKids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D8744A721B6EBD300F7986A /* Build configuration list for PBXNativeTarget "ZooKids" */;
+			buildPhases = (
+				8D87448321B6EBD300F7986A /* Sources */,
+				8D87448421B6EBD300F7986A /* Frameworks */,
+				8D87448521B6EBD300F7986A /* Resources */,
+				84F03F4921DE93E9002DBCF9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZooKids;
+			productName = ZooKids;
+			productReference = 8D87448721B6EBD300F7986A /* ZooKids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D87449D21B6EBD300F7986A /* ZooKidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D8744AA21B6EBD300F7986A /* Build configuration list for PBXNativeTarget "ZooKidsTests" */;
+			buildPhases = (
+				8D87449A21B6EBD300F7986A /* Sources */,
+				8D87449B21B6EBD300F7986A /* Frameworks */,
+				8D87449C21B6EBD300F7986A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D8744A021B6EBD300F7986A /* PBXTargetDependency */,
+			);
+			name = ZooKidsTests;
+			productName = ZooKidsTests;
+			productReference = 8D87449E21B6EBD300F7986A /* ZooKidsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3D4B5B521FB634D00AC472E /* ZooKids2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D4B5E221FB634D00AC472E /* Build configuration list for PBXNativeTarget "ZooKids2" */;
+			buildPhases = (
+				D3D4B5B621FB634D00AC472E /* Sources */,
+				D3D4B5D521FB634D00AC472E /* Frameworks */,
+				D3D4B5D821FB634D00AC472E /* Resources */,
+				D3D4B5DF21FB634D00AC472E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZooKids2;
+			productName = ZooKids;
+			productReference = D3D4B5E521FB634D00AC472E /* ZooKids2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D87447F21B6EBD300F7986A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ual;
+				TargetAttributes = {
+					8D87448621B6EBD300F7986A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8D87449D21B6EBD300F7986A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8D87448621B6EBD300F7986A;
+					};
+				};
+			};
+			buildConfigurationList = 8D87448221B6EBD300F7986A /* Build configuration list for PBXProject "ZooKids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D87447E21B6EBD300F7986A;
+			productRefGroup = 8D87448821B6EBD300F7986A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D87448621B6EBD300F7986A /* ZooKids */,
+				8D87449D21B6EBD300F7986A /* ZooKidsTests */,
+				D3D4B5B521FB634D00AC472E /* ZooKids2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D87448521B6EBD300F7986A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B9A82921C80FFB00F1CED9 /* Juego.storyboard in Resources */,
+				8D87449821B6EBD300F7986A /* LaunchScreen.storyboard in Resources */,
+				8D87449521B6EBD300F7986A /* Assets.xcassets in Resources */,
+				84AAE48121DFBF8F00AB6C28 /* nino.storyboard in Resources */,
+				844E4BF821E6773300ADD1DB /* Admin.storyboard in Resources */,
+				8D87449021B6EBD300F7986A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D87449C21B6EBD300F7986A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D4B5D821FB634D00AC472E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D4B5D921FB634D00AC472E /* Juego.storyboard in Resources */,
+				D3D4B5DA21FB634D00AC472E /* LaunchScreen.storyboard in Resources */,
+				D3D4B5DB21FB634D00AC472E /* Assets.xcassets in Resources */,
+				D3D4B5DC21FB634D00AC472E /* nino.storyboard in Resources */,
+				D3D4B5DD21FB634D00AC472E /* Admin.storyboard in Resources */,
+				D3D4B5DE21FB634D00AC472E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D87448321B6EBD300F7986A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840311EB21E549DF007AA445 /* Estadisticas_ViewController.swift in Sources */,
+				D230EC0721D550B6001F9631 /* AlumnosTableViewController.swift in Sources */,
+				8413917521ED3D9F00F54B1C /* GraficaResultadosViewController.swift in Sources */,
+				D2FCB9BE21DA445E00EFEBA4 /* RegistroViewController.swift in Sources */,
+				D230EC0621D550B6001F9631 /* AdminViewController.swift in Sources */,
+				29B9A82821C8092800F1CED9 /* Alumno.swift in Sources */,
+				D2FCB9BD21DA445E00EFEBA4 /* AlumnoTableViewCell.swift in Sources */,
+				29B9A83121C81C7500F1CED9 /* TestViewController.swift in Sources */,
+				84F03F1521DE8E17002DBCF9 /* grafica.swift in Sources */,
+				D2EE8C3C21EE9AC60006EABE /* ModeloDatos.swift in Sources */,
+				8413917721ED3D9F00F54B1C /* BarrasAciertosTabla.swift in Sources */,
+				84412ED021D3FF1A002DA550 /* TableviewCell1.swift in Sources */,
+				29B9A82E21C81C7500F1CED9 /* PartidaViewController.swift in Sources */,
+				8413917321ED3D9F00F54B1C /* ListaAlumnosViewController.swift in Sources */,
+				D230EC0921D550B6001F9631 /* Fallo.swift in Sources */,
+				844E4BF621E6773300ADD1DB /* GraficaGeneroViewController.swift in Sources */,
+				29B9A82F21C81C7500F1CED9 /* PreguntaViewController.swift in Sources */,
+				D206FD3D21EFC522002486C6 /* ZooKids.xcdatamodeld in Sources */,
+				8D696DFB21D15EEC00AECD45 /* Animal.swift in Sources */,
+				D230EC2421D580E5001F9631 /* Partida.swift in Sources */,
+				84412ECB21D3FEA1002DA550 /* BarraPartidasViewController.swift in Sources */,
+				29B9A83021C81C7500F1CED9 /* ResultadosViewController.swift in Sources */,
+				8D87448D21B6EBD300F7986A /* ViewController.swift in Sources */,
+				84AAE48021DFBF8F00AB6C28 /* PerfilNinioViewController.swift in Sources */,
+				843B817721B9C52F0051146F /* Inicio_de_sesionViewController.swift in Sources */,
+				84412ECC21D3FEA1002DA550 /* BarrasAciertos.swift in Sources */,
+				8413917621ED3D9F00F54B1C /* GraficaFallosTotalesViewController.swift in Sources */,
+				8D87448B21B6EBD300F7986A /* AppDelegate.swift in Sources */,
+				29B9A82621C8052000F1CED9 /* Profesor.swift in Sources */,
+				8413917421ED3D9F00F54B1C /* graficaResumen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D87449A21B6EBD300F7986A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8744A321B6EBD300F7986A /* ZooKidsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D4B5B621FB634D00AC472E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D4B5B721FB634D00AC472E /* Estadisticas_ViewController.swift in Sources */,
+				D3D4B5B821FB634D00AC472E /* AlumnosTableViewController.swift in Sources */,
+				D3D4B5B921FB634D00AC472E /* GraficaResultadosViewController.swift in Sources */,
+				D3D4B5BA21FB634D00AC472E /* RegistroViewController.swift in Sources */,
+				D3D4B5BB21FB634D00AC472E /* AdminViewController.swift in Sources */,
+				D3D4B5BC21FB634D00AC472E /* Alumno.swift in Sources */,
+				D3D4B5BD21FB634D00AC472E /* AlumnoTableViewCell.swift in Sources */,
+				D3D4B5BE21FB634D00AC472E /* TestViewController.swift in Sources */,
+				D3D4B5BF21FB634D00AC472E /* grafica.swift in Sources */,
+				D3D4B5C021FB634D00AC472E /* ModeloDatos.swift in Sources */,
+				D3D4B5C121FB634D00AC472E /* BarrasAciertosTabla.swift in Sources */,
+				D3D4B5C221FB634D00AC472E /* TableviewCell1.swift in Sources */,
+				D3D4B5C321FB634D00AC472E /* PartidaViewController.swift in Sources */,
+				D3D4B5C421FB634D00AC472E /* ListaAlumnosViewController.swift in Sources */,
+				D3D4B5C521FB634D00AC472E /* Fallo.swift in Sources */,
+				D3D4B5C621FB634D00AC472E /* GraficaGeneroViewController.swift in Sources */,
+				D3D4B5C721FB634D00AC472E /* PreguntaViewController.swift in Sources */,
+				D3D4B5C821FB634D00AC472E /* ZooKids.xcdatamodeld in Sources */,
+				D3D4B5C921FB634D00AC472E /* Animal.swift in Sources */,
+				D3D4B5CA21FB634D00AC472E /* Partida.swift in Sources */,
+				D3D4B5CB21FB634D00AC472E /* BarraPartidasViewController.swift in Sources */,
+				D3D4B5CC21FB634D00AC472E /* ResultadosViewController.swift in Sources */,
+				D3D4B5CD21FB634D00AC472E /* ViewController.swift in Sources */,
+				D3D4B5CE21FB634D00AC472E /* PerfilNinioViewController.swift in Sources */,
+				D3D4B5CF21FB634D00AC472E /* Inicio_de_sesionViewController.swift in Sources */,
+				D3D4B5D021FB634D00AC472E /* BarrasAciertos.swift in Sources */,
+				D3D4B5D121FB634D00AC472E /* GraficaFallosTotalesViewController.swift in Sources */,
+				D3D4B5D221FB634D00AC472E /* AppDelegate.swift in Sources */,
+				D3D4B5D321FB634D00AC472E /* Profesor.swift in Sources */,
+				D3D4B5D421FB634D00AC472E /* graficaResumen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D8744A021B6EBD300F7986A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D87448621B6EBD300F7986A /* ZooKids */;
+			targetProxy = 8D87449F21B6EBD300F7986A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D87448E21B6EBD300F7986A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D87448F21B6EBD300F7986A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D87449621B6EBD300F7986A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D87449721B6EBD300F7986A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D8744A521B6EBD300F7986A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D8744A621B6EBD300F7986A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D8744A821B6EBD300F7986A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ZooKids/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D LPS1";
+				PRODUCT_BUNDLE_IDENTIFIER = ual.ZooKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D8744A921B6EBD300F7986A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ZooKids/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D LPS1";
+				PRODUCT_BUNDLE_IDENTIFIER = ual.ZooKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D8744AB21B6EBD300F7986A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZooKidsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ual.ZooKidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZooKids.app/ZooKids";
+			};
+			name = Debug;
+		};
+		8D8744AC21B6EBD300F7986A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZooKidsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ual.ZooKidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZooKids.app/ZooKids";
+			};
+			name = Release;
+		};
+		D3D4B5E321FB634D00AC472E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ZooKids copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D LPS2";
+				PRODUCT_BUNDLE_IDENTIFIER = ual.ZooKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3D4B5E421FB634D00AC472E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ZooKids copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D LPS2";
+				PRODUCT_BUNDLE_IDENTIFIER = ual.ZooKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D87448221B6EBD300F7986A /* Build configuration list for PBXProject "ZooKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8744A521B6EBD300F7986A /* Debug */,
+				8D8744A621B6EBD300F7986A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D8744A721B6EBD300F7986A /* Build configuration list for PBXNativeTarget "ZooKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8744A821B6EBD300F7986A /* Debug */,
+				8D8744A921B6EBD300F7986A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D8744AA21B6EBD300F7986A /* Build configuration list for PBXNativeTarget "ZooKidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8744AB21B6EBD300F7986A /* Debug */,
+				8D8744AC21B6EBD300F7986A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D4B5E221FB634D00AC472E /* Build configuration list for PBXNativeTarget "ZooKids2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D4B5E321FB634D00AC472E /* Debug */,
+				D3D4B5E421FB634D00AC472E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D206FD3B21EFC522002486C6 /* ZooKids.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D206FD3C21EFC522002486C6 /* ZooKids.xcdatamodel */,
+			);
+			currentVersion = D206FD3C21EFC522002486C6 /* ZooKids.xcdatamodel */;
+			path = ZooKids.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8D87447F21B6EBD300F7986A /* Project object */;
+}

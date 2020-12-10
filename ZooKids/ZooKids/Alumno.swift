@@ -1,0 +1,22 @@
+//
+//  Alumno.swift
+//  ZooKids
+//
+//  Created by Aula11 on 17/12/18.
+//  Copyright © 2018 ual. All rights reserved.
+//
+
+import UIKit
+import CoreData
+
+class Alumno: NSManagedObject {
+    
+    @NSManaged var contrasenia: String
+    @NSManaged var fecha_nacimiento: NSDate
+    @NSManaged var foto: UIImage?
+    @NSManaged var nombre_usuario: String
+    @NSManaged var sexo: String
+    @NSManaged var partidas: [Partida]
+    @NSManaged var profesor: Profesor
+
+}
